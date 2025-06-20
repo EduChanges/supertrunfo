@@ -1,26 +1,32 @@
-# supertrunfo
-Jogo desenvolvido no primeiro desafio do primeiro semestre no primeiro periodo da faculdade de ciencias da computação da estácio
 # Supertrunfo
 
 ## Versão 0.1
+Esta versão inicial (v0.1) tem como objetivo adicionar os dados básicos nas cartas do jogo de Supertrunfo.
+jogo inicialmente programado apenas em "C"
+---
 
-Esta versão inicial do projeto tem como objetivo principal a adição dos dados nas cartas do jogo.
-
-### Descrição
-
-- Implementação dos dados básicos para as cartas do Supertrunfo.
-- Inclusão dos arquivos de código e dados iniciais.
-- Estrutura inicial para manipulação das cartas.
-
-### Como usar
-
-Você pode abrir este projeto com uma IDE (Ambiente de Desenvolvimento Integrado) de sua preferência, como o [Visual Studio Code](https://code.visualstudio.com/), [Code::Blocks](http://www.codeblocks.org/), ou outro que suporte C/C++.
-
-> Recomendado: Visual Studio Code + extensão C/C++ da Microsoft.
-
-Neste momento, este projeto está em desenvolvimento e foca apenas na parte de incerção dados das cartas. Futuras versões irão implementar funcionalidades e melhorias.
+## 📄 Descrição
+- Inclusão das cartas com atributos básicos em C.
+- Estrutura inicial pronta para manipulação de dados.
+- Arquivos principais:
+  - `supertrunfo.c`: lógica do jogo
+  - `dados.txt`: base de dados
+  - Outros arquivos de configuração e testes
 
 ---
 
-**Autor:** EduChanges
-**Data:** 2025-06-20
+## 💻 Como abrir o projeto
+Abra a pasta do projeto com sua IDE de preferência (Ambiente de Desenvolvimento Integrado), como:
+- **Visual Studio Code** (recomendado, com extensão C/C++)
+- **Code::Blocks**
+- Ou qualquer outra que suporte C/C++
+
+---
+
+## 🛠️ Instruções Rápidas
+```bash
+# Compilar (se a IDE não fizer automágicamente)
+gcc src/supertrunfo.c -o supertrunfo.exe
+
+# Executar
+./supertrunfo.exe
