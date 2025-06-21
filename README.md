@@ -1,7 +1,12 @@
 # Supertrunfo
 
-## Versão 0.1
-Esta versão inicial (v0.1) tem como objetivo adicionar os dados básicos nas cartas do jogo de Supertrunfo.
+## Versão 0.2
+O que mudou? 
+- agora é permitido escolher estados reais ou ficticios com mais de um caracter
+- é possivel escrever com espaços sem dar bug de pular seleções de entrada de dados devido ao espaçamento entre "scanf("_%", variavel); (aspas e "%") no código
+- não acumula mais "lixo" no buffer de entrada
+
+Esta versão inicial (v0.2) tem como objetivo adicionar os dados básicos nas cartas do jogo de Supertrunfo.
 jogo inicialmente programado apenas em "C"
 ---
 
