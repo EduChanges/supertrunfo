@@ -21,6 +21,8 @@ int main() {
     printf("Estado (california, Minas ,etc...): ");
     scanf(" %[^\n]", estado1);
 
+    // não adicione "." nem "," (pontos e virgulas) ao escrever qualquer número
+
     printf("Código da Carta (ex: A01): ");
     scanf(" %s", codigo1);
 
@@ -50,7 +52,7 @@ int main() {
     printf("Nome da Cidade: ");
     scanf(" %[^\n]", cidade2); // atualizado: com espaços
 
-    printf("População: ");
+    printf("População: "); 
     scanf(" %d", &populacao2);
 
     printf("Área em km²: ");
