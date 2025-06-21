@@ -1,12 +1,12 @@
 # Supertrunfo
-
+Adicione dados a duas cartas nesse prototipo de super trunfo estados e cidade
 ## Versão 0.2
 O que mudou? 
 - agora é permitido escolher estados reais ou ficticios com mais de um caracter
 - é possivel escrever com espaços sem dar bug de pular seleções de entrada de dados devido ao espaçamento entre "scanf("_%", variavel); (aspas e "%") no código
-- não acumula mais "lixo" no buffer de entrada
+- não acumula mais "lixo" no buffer de entrada se executado corretamente
 
-Esta versão inicial (v0.2) tem como objetivo adicionar os dados básicos nas cartas do jogo de Supertrunfo.
+Esta é uma das versões iniciais (v0.2) e tem como objetivo adicionar os dados básicos nas 2 cartas do jogo de Supertrunfo.
 jogo inicialmente programado apenas em "C"
 ---
 
