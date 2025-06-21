@@ -34,4 +34,6 @@ Abra a pasta do projeto com sua IDE de preferência (Ambiente de Desenvolvimento
 gcc src/supertrunfo.c -o supertrunfo.exe
 
 # Executar
-./supertrunfo.exe
+1- abra o prompt
+2- cd supertrunfo\src
+3- ./supertrunfo.exe
